@@ -1,3 +1,3 @@
 #Portfolio-Assignment
-This repository can be used to create a simple Azure hosted static website.
+A website that hosts all my assignments from Software Engineering.
 Credits: Chatgpt, Glaycon
