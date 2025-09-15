@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hello World Azure Template</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glaycon | Web Assignments Hub</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<h1>Azure Static Website Template</h1>
-<p>This page is a sample page for a “Hello World” Azure Static Website Template. The page contains an HTML validation warning. 
-Can you find and fix that warning? What about the curly quotes? Do they current work in all browsers? Can you fix the curly 
-quotes also? And what about proper indenting?</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1>Web Assignments Hub</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About / Overview -->
+    <section id="about" class="card main-info">
+      <h2>About This Site</h2>
+      <p>
+        This website serves as a central page for all of my web-based class assignments in Software Engineering.
+      </p>
+    </section>
+
+    <!-- Assignments -->
+    <section id="assignments" class="card">
+      <h2>Assignments</h2>
+      <div class="grid">
+        <!-- Previous -->
+        <article class="tile">
+          <h3>About Me (Sprint 1)</h3>
+          <p>My original dark themed intro page (GitHub Pages).</p>
+          <a class="btn" href="https://rex3533.github.io/me/" target="_blank" rel="noopener" aria-label="Open Sprint 1 About Me">
+            Visit
+          </a>
+        </article>
+
+        <!-- Current -->
+        <article class="tile">
+          <h3>Web Resume (Sprint 2)</h3>
+          <p>Single-page resume hosted on Azure Static Web Apps.</p>
+          <a class="btn" href="https://black-forest-06ef91310.1.azurestaticapps.net" target="_blank" rel="noopener">
+            Visit
+          </a>
+        </article>
+
+        <article class="tile">
+          <h3>Lions, Tigers & Bears (Sprint 2)</h3>
+          <p>Responsive animal-themed page (Azure).</p>
+          <a class="btn" href="https://gray-moss-0fc226c10.1.azurestaticapps.net" target="_blank" rel="noopener">
+            Visit
+          </a>
+        </article>
+
+        <article class="tile">
+          <h3>Web Dice Roller (Sprint 2)</h3>
+          <p>Simple interactive dice roller (Azure).</p>
+          <a class="btn" href="https://purple-coast-0a2a88710.2.azurestaticapps.net" target="_blank" rel="noopener">
+            Visit
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Future links area -->
+    <section id="future" class="card">
+      <h2>Future Assignments</h2>
+      <p>
+        I’ll add links here as new projects are published.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+        <!-- Added this since im assuming we are going to constantly update this page and it will eventually get big -->
+      <p><a href="#top">Back to top</a></p>
+    </div>
+  </footer>
 </body>
 </html>
